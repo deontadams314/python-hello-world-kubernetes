@@ -1,6 +1,8 @@
 FROM python:3-alpine
 
-ADD Requirements.txt Hello-World/ ./
+WORKDIR /example-script
+
+COPY Requirements.txt Hello-World/ ./
 
 RUN pip install -r Requirements.txt
 
