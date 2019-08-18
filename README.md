@@ -1,6 +1,6 @@
 # Python - Hello World - Kubernetes
 
-Simple program to create a cluster with a hello world webpage using Python & Flask
+Simple program to create a Flask application in Python, Dockerize it and then run it in Kubernetes cluster
 
 # Requirements
 
@@ -8,5 +8,3 @@ Simple program to create a cluster with a hello world webpage using Python & Fla
 - Docker
 - Kubernetes
 - Flask
-
-
