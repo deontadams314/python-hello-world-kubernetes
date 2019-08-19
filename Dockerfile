@@ -2,9 +2,11 @@ FROM python:3-alpine
 
 WORKDIR /web-app
 
-COPY Requirements.txt hello-flask.py ./
+COPY Requirements.txt ./
 
 RUN pip install -r Requirements.txt
+
+COPY . ./
 
 EXPOSE 5050 
 
