@@ -11,3 +11,5 @@ COPY . ./
 EXPOSE 5050 
 
 ENTRYPOINT ["python3", "hello-flask.py"]
+
+
