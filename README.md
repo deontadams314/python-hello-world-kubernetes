@@ -11,4 +11,4 @@ Simple program to create a Flask application in Python, Dockerize it and then ru
 
 # End Result
 
-- A running http application accessible over any web browser.
+- A running http application accessible over any web browser via a public endpoint.
